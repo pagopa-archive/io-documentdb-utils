@@ -5,5 +5,21 @@
   "main": "dist/index.js",
   "repository": "https://github.com/teamdigitale/io-documentdb-utils",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/documentdb": "^1.10.5",
+    "@types/jest": "^24.0.13",
+    "italia-tslint-rules": "^1.1.3",
+    "jest": "^24.8.0",
+    "prettier": "^1.17.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "documentdb": "^1.15.3",
+    "fp-ts": "1.12.0",
+    "io-ts": "1.8.5",
+    "italia-ts-commons": "^5.1.3"
+  }
 }

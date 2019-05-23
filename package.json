@@ -1,0 +1,9 @@
+{
+  "name": "io-documentdb-utils",
+  "version": "0.0.1",
+  "description": "Utilities to interact with CosmosDB Documentdb API",
+  "main": "dist/index.js",
+  "repository": "https://github.com/teamdigitale/io-documentdb-utils",
+  "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
+  "license": "MIT"
+}

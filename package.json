@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Utilities to interact with CosmosDB Documentdb API",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "repository": "https://github.com/teamdigitale/io-documentdb-utils",
   "author": "Federico Feroldi <federico@teamdigitale.governo.it>",
   "license": "MIT",
@@ -14,6 +18,7 @@
     "italia-tslint-rules": "^1.1.3",
     "jest": "^24.8.0",
     "prettier": "^1.17.1",
+    "rimraf": "^2.6.3",
     "ts-jest": "^24.0.2",
     "tslint": "^5.16.0",
     "typescript": "^3.4.5"
@@ -27,6 +32,10 @@
   "scripts": {
     "lint": "tslint -p .",
     "compile": "tsc --noemit -p .",
-    "test": "jest --coverage"
+    "dist": "tsc -p .",
+    "test": "jest --coverage",
+    "prepublishOnly": "rimraf dist && yarn lint && yarn test && yarn dist",
+    "build": "tsc",
+    "postversion": "git push && git push --tags"
   }
 }

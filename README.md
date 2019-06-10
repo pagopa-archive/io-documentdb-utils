@@ -1,10 +1,5 @@
 
-[![CircleCI](https://circleci.com/gh/teamdigitale/io-documentdb-utils.svg?style=svg)](https://circleci.com/gh/teamdigitale/io-documentdb-utils)
+# DEPRECATED
 
-[![codecov](https://codecov.io/gh/teamdigitale/io-documentdb-utils/branch/master/graph/badge.svg)](https://codecov.io/gh/teamdigitale/io-documentdb-utils)
+use [io-functions-commons](https://github.com/teamdigitale/io-functions-commons)
 
-![npm](https://img.shields.io/npm/v/io-documentdb-utils.svg)
-
-# io-documentdb-utils
-
-Utility functions for dealing with CosmosDB DocumentDB API.
